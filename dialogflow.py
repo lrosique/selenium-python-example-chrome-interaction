@@ -52,7 +52,7 @@ def speakForMe():
     cpt = 1
     for s in saisies:
         if (limite < 1 or cpt <= limite):
-            #print("To say : "+s)
+            print("Sent : "+s)
             sendText(s)
             says = getUserSays()
             while (says != s):
