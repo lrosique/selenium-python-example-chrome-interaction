@@ -16,7 +16,7 @@ print(driver.title)
 url_dialogflow = "https://console.dialogflow.com/api-client/"
 timeout = 5
 
-saisies = ["bonjour","Lundi","14h","Monsieur"]
+saisies = ["bjr","rdv","rp","33","3","33k","lundi","9h","mr","prenom","nom","adresse","email@aol.fr","0123456789"]
 limite = 0
 
 def goToDialogflow():
